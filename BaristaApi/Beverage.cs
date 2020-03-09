@@ -1,20 +1,14 @@
 using System.Collections.Generic;
 
-public interface IBeverage{
+public abstract class Beverage{
 	List<string> Ingredients { get; }
     string CupType { get; }
 }
 
-class Espresso : IBeverage
+class Espresso : Beverage
 {
-    public List<string> Ingredients => throw new System.NotImplementedException();
-
-    public string CupType => throw new System.NotImplementedException();
 }
 
-class Latte : IBeverage
+class Latte : Beverage
 {
-    public List<string> Ingredients => throw new System.NotImplementedException();
-
-    public string CupType => throw new System.NotImplementedException();
 }
