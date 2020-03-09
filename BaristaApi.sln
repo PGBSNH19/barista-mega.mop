@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaristaApi", "BaristaApi\BaristaApi.csproj", "{422FD252-09B8-425B-86F2-F253A3893C56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaApi.Test", "..\BaristaApi.Test\BaristaApi.Test.csproj", "{3BCB196C-FD83-4473-A9E7-846A8FD20B0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaristaApi.Test", "BaristaApi.Test\BaristaApi.Test.csproj", "{3BCB196C-FD83-4473-A9E7-846A8FD20B0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
