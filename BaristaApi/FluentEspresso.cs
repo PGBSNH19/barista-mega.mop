@@ -46,7 +46,7 @@ namespace BaristaApi
 
         public bool CanItBeInCup(Func<int, bool> func)
         {
-            if (func.Invoke(this.amountInCup)) {
+            if (func(this.amountInCup)) {
                 return true;
             }
             return false;
