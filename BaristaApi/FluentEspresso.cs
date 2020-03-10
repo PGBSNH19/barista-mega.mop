@@ -44,9 +44,9 @@ namespace BaristaApi
             return this;
         }
 
-        public bool CanItBeInCup(Func<int, bool> func)
+        public bool CanItBeInCup(Func<int, bool> validateCupSizeFunction)
         {
-            if (func(this.amountInCup)) {
+            if (validateCupSizeFunction(this.amountInCup)) {
                 return true;
             }
             return false;
